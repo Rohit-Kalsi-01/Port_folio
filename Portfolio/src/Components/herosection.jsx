@@ -92,7 +92,7 @@ export const Hero=()=>{
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <div className="mb-8">
-              <div className="w-32 h-32 mx-auto mb-6  flex items-center justify-center">
+              <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center">
                 <img src="/rohit1.jpg" alt=""  className='rounded-xl mt-5'/>
               </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-4">

@@ -41,6 +41,15 @@ export const Contantt=()=>{
                 <Linkedin size={20} />
                 <span>Twitter</span>
               </a>
+                <a
+                href="https://drive.google.com/file/d/1pCv0L4vCJhdmwHfXlriKSgUD14JcC3Es/view?usp=drivesdk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 border border-gray-600 hover:border-blue-400 px-6 py-3 rounded-full transition-all duration-300 hover:bg-blue-400/10"
+              >
+              
+                <span>Resume</span>
+              </a>
             </div>
             <div className="bg-gradient-to-r from-blue-500/10 to-purple-600/10 border border-gray-700 rounded-xl p-8">
               <h3 className="text-xl font-semibold mb-4 text-white">Ready to contribute</h3>
