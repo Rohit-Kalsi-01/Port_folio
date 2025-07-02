@@ -1,4 +1,4 @@
-import {  Mail, Linkedin} from 'lucide-react';
+import {  Mail, Linkedin,X,Download} from 'lucide-react';
 
 export const Contantt=()=>{
     return(
@@ -15,10 +15,11 @@ export const Contantt=()=>{
               I'm actively seeking new opportunities as a software engineer. 
               Whether you have a project in mind or just want to connect, I'd love to hear from you!
             </p>
-            <div className="flex justify-center space-x-6 mb-8">
+            <div className="flex sm:flex-nowrap flex-wrap gap-4 sm:gap-0 sm:justify-center space-x-6 mb-8">
               <a
                 href="mailto:rohit.singh@example.com"
-                className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+                className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 
+                ml-6 px-6 py-3 sm:px-6 sm:py-3 rounded-full transition-all duration-300 transform hover:scale-105"
               >
                 <Mail size={20} />
                 <span>Email Me</span>
@@ -36,9 +37,9 @@ export const Contantt=()=>{
                 href="https://x.com/RohitSingh30197?t=TG6SykIBRfZebTp4S3shSg&s=09"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 border border-gray-600 hover:border-blue-400 px-6 py-3 rounded-full transition-all duration-300 hover:bg-blue-400/10"
+                className="flex items-center space-x-2 border border-gray-600 hover:border-blue-400  px-8 py-3 sm:px-6 sm:py-3 rounded-full transition-all duration-300 hover:bg-blue-400/10"
               >
-                <Linkedin size={20} />
+                <X size={20} />
                 <span>Twitter</span>
               </a>
                 <a
@@ -47,7 +48,7 @@ export const Contantt=()=>{
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 border border-gray-600 hover:border-blue-400 px-6 py-3 rounded-full transition-all duration-300 hover:bg-blue-400/10"
               >
-              
+               <Download size={20} />
                 <span>Resume</span>
               </a>
             </div>
