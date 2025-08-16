@@ -3,12 +3,22 @@ import { Github, ExternalLink } from 'lucide-react';
 export const Project=()=>{
      const projects = [
         {
+          title: "ChatApp",
+          description: "A real-time chat app, portfolio management, and advanced setting features. Built with modern web technologies for seamless user experience.",
+          github: "https://github.com/Rohit-Kalsi-01/Chat-app",
+          live: "https://chat-app-bd9s.onrender.com/login",
+          tech: ["React",  "Tailwind css", "Node js" ,"express","Websockit"],
+          gradient: "from-blue-500 to-purple-600",
+          img:"/project2.jpg"
+        },
+        {
           title: "DreamTrade",
           description: "A comprehensive trading platform with real-time market data, portfolio management, and advanced trading features. Built with modern web technologies for seamless user experience.",
-          github: "https://github.com/Rohit-Kalsi-01/DreamTrade",
-          live: "https://sensational-froyo-06206b.netlify.app/",
+          github: "https://github.com/Rohit-Kalsi-01/Dream_Trade",
+          live: "https://dream-trade-hazel.vercel.app/",
           tech: ["React",  "Tailwind css", ],
-          gradient: "from-blue-500 to-purple-600"
+          gradient: "from-blue-500 to-purple-600",
+          img:"/project3.jpg"
         },
         {
           title: "BG Removal",
@@ -16,7 +26,8 @@ export const Project=()=>{
           github: "https://github.com/Rohit-Kalsi-01/BG-REMOVAL",
           live: "https://bg-removal-gj7z.vercel.app/",
           tech: [ "Image Processing", "React", "Vercel"],
-          gradient: "from-green-500 to-teal-600"
+          gradient: "from-green-500 to-teal-600",
+          img:"/project.jpg"
         },
         {
           title: "Car Rental Website",
@@ -24,7 +35,8 @@ export const Project=()=>{
           github: "https://github.com/Rohit-Kalsi-01/CarRentalWebSite",
           live: "https://polite-swan-64c523.netlify.app/",
           tech: ["React", "Responsive Design", "UI/UX"],
-          gradient: "from-orange-500 to-red-600"
+          gradient: "from-orange-500 to-red-600",
+          img:"/project4.jpg"
         }
       ];
     return(
@@ -54,6 +66,10 @@ export const Project=()=>{
                       </span>
                     ))}
                   </div>
+                  <div className='mb-5'>
+                        <img src={project.img} alt={project.title} className="rounded-lg shadow-lg" />
+                    </div>
+                  
                   <div className="flex space-x-4">
                     <a
                       href={project.github}
@@ -73,7 +89,10 @@ export const Project=()=>{
                       <ExternalLink size={16} />
                       <span className="text-sm">Live Demo</span>
                     </a>
+                  
+                  
                   </div>
+                    
                 </div>
               </div>
             ))}

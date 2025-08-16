@@ -43,7 +43,7 @@ export const Contantt=()=>{
                 <span>Twitter</span>
               </a>
                 <a
-                href="https://drive.google.com/file/d/1pCv0L4vCJhdmwHfXlriKSgUD14JcC3Es/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1QBsmtt6CcLzP163n8Kl5N2fMw1B1JV4O/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 border border-gray-600 hover:border-blue-400 px-6 py-3 rounded-full transition-all duration-300 hover:bg-blue-400/10"
