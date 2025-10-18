@@ -7,6 +7,7 @@ import {  Code, Menu, X, ChevronDown } from 'lucide-react';
 import { Skill } from './Components/skill';
 import { Hero } from './Components/herosection';
 
+
 export const App = () => {
   
 
@@ -34,6 +35,9 @@ export const App = () => {
       
       <Footer/>
     </div>
+    
+   
+    
   );
 };
 
