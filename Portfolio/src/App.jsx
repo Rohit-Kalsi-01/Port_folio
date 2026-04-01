@@ -13,8 +13,8 @@ export const App = () => {
 
  
   const skills = [
-    { category: "Frontend", items: ["React",  "HTML", "Tailwind css", "Responsive Design", "UI/UX"] },
-    { category: "Backend", items: ["Node.js", "APIs", "Server Architecture"] },
+    { category: "Frontend", items: ["Next.js","React",  "HTML", "Tailwind css", "Responsive Design", "UI/UX","ShadCN"] },
+    { category: "Backend", items: ["Node.js", "Express.js","APIs", "Server Architecture"] },
     { category: "Tools", items: ["Git", "GitHub", "Vercel", "Netlify", "VS Code"] },
     { category: "Other", items: ["Image Processing", "Problem Solving"] }
   ];
