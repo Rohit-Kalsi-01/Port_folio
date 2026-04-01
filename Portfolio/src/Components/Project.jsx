@@ -2,6 +2,15 @@ import { Github, ExternalLink } from 'lucide-react';
 
 export const Project=()=>{
      const projects = [
+       {
+          title: "Ai-Logo-Generator",
+          description: "AI-powered logo generator with smart design suggestions, real-time preview, and advanced customization using modern web technologies for a creative experience.",
+          github: "https://github.com/Rohit-Kalsi-01/ai-logo-repository",
+          live: "https://ai-logo-repository-bf74-hdsiead5a.vercel.app/",
+          tech: ["Next.js","Tailwind css","gemini api","firebase"],
+          gradient: "from-blue-500 to-purple-600",
+          img:"/project6.png"
+        },
         {
           title: "ChatApp",
           description: "A real-time chat app, portfolio management, and advanced setting features. Built with modern web technologies for seamless user experience.",
@@ -10,6 +19,15 @@ export const Project=()=>{
           tech: ["React",  "Tailwind css", "Node js" ,"express","Websockit"],
           gradient: "from-blue-500 to-purple-600",
           img:"/project2.jpg"
+        },
+        {
+          title: "DashBoard",
+          description: "A modern and responsive dashboard application built with Next.js ShandCN and Tailwind CSS. It features a clean and intuitive interface for managing data, visualizations, and user interactions",
+          github: "https://github.com/Rohit-Kalsi-01/dashboard",
+          live: "https://dashboard-cxu5.vercel.app/",
+          tech: ["Next.js", "Responsive Design", "shadCN"],
+          gradient: "from-orange-500 to-red-600",
+          img:"/project5.png"
         },
         {
           title: "DreamTrade",
@@ -29,15 +47,7 @@ export const Project=()=>{
           gradient: "from-green-500 to-teal-600",
           img:"/project.jpg"
         },
-        {
-          title: "Car Rental Website",
-          description: "A full-featured car rental platform with booking system, vehicle catalog, and user management. Features responsive design and intuitive user interface.",
-          github: "https://github.com/Rohit-Kalsi-01/CarRentalWebSite",
-          live: "https://polite-swan-64c523.netlify.app/",
-          tech: ["React", "Responsive Design", "UI/UX"],
-          gradient: "from-orange-500 to-red-600",
-          img:"/project4.jpg"
-        }
+        
       ];
     return(
         <>
